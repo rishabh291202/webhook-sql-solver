@@ -3,9 +3,9 @@ import requests
 # Step 1: Send POST request to generate webhook
 url = "https://bfhldevapigw.healthrx.co.in/hiring/generateWebhook/PYTHON"
 payload = {
-    "name": "John Doe",
-    "regNo": "REG12347",
-    "email": "john@example.com"
+    "name": "rishabh shavare",
+    "regNo": "0827CY233D03",
+    "email": "rishabhshavare230685@acropolis.in"
 }
 response = requests.post(url, json=payload)
 
